@@ -1,0 +1,65 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+}
+
+div {
+    text-align: center;
+}
+
+ul,
+ol {
+    display: table;
+    margin: 0 auto;
+}
+
+#bold {
+    font-style: bold;
+}
+
+.big {
+    font-size: 20px;
+}
+
+.small {
+    font-size: 10px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    width: 100%
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover:not(.active){
+    background-color: black;
+}
+
+.active {
+    background-color: cyan;
+}
+.aqua{
+    background-color: aqua;
+  }
+
